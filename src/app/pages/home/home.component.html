@@ -6,12 +6,34 @@
 
 <div class="container__articles">
   <div class="article__main">
-    <app-big-card></app-big-card>
+    <!--Deixando o componente Big Card de forma dinamica.-->
+    <app-big-card
+      photoCover="https://miro.medium.com/v2/resize:fit:1358/1*KNkEi6hJoec0eEcLCzCvAA.png"
+      cardTitle="Saiu nova versão do Angular"
+      cardDescription="No coração do código, pulsa a essência da criação. Cada linha escrita, cada componente integrado, é mais do que tecnologia — é uma ponte entre ideias e experiências. Aqui, neste projeto, a inovação encontra a simplicidade e transforma o abstrato em funcional. Construímos não apenas aplicações, mas conexões que fazem sentido."
+      >
+    </app-big-card>
+
   </div>
   <div class="article__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+
+    <!--Small Card 01-->
+    <app-small-card
+      photoCover="https://www.tatvasoft.com/outsourcing/wp-content/uploads/2022/09/Angular-vs-AngularJS_-Key-Differences-1280x720.jpg"
+      cardTitle="Veja a evolução do AngularJS para o Angular 19!"
+    ></app-small-card>
+
+    <!--Small Card 02-->
+    <app-small-card
+      photoCover="https://hermes.dio.me/articles/cover/2fa40c61-2f1a-43f6-aaf1-fd8949d8dd2a.jpg"
+      cardTitle="Descubra as novidades mais recentes referente ao Angular"
+    ></app-small-card>
+
+    <!--Smal Card 03-->
+    <app-small-card
+      photoCover="https://i.ytimg.com/vi/JvkX2_46gUY/maxresdefault.jpg"
+      cardTitle="Assista a um tutorial completo sobre o Novo Angular 19!"
+    ></app-small-card>
   </div>
 </div>
 

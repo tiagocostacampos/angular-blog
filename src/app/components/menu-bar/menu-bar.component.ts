@@ -5,7 +5,7 @@ import { AppComponent } from '../../app.component';
   selector: 'app-menu-bar',
   imports: [],
   templateUrl: './menu-bar.component.html',
-  styleUrl: './menu-bar.component.css'
+  styleUrls: ['./menu-bar.component.css', './menu-bar.responsive.component.css']
 })
 export class MenuBarComponent {
 

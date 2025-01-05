@@ -1,6 +1,8 @@
+@media screen and (max-width:1024px) {
+
 .container__small-card{
   --border: 1px solid white;
-  width: 700px;
+  width: 100px;
   margin-bottom: 15px;
 }
 .container__small-card-content{
@@ -9,8 +11,8 @@
 }
 
 .small-card__photos > img{
-  width: 200px;
-  min-width: 200px;
+  width: 35px;
+  min-width: 35px;
   margin-right: 20px;
 }
 
@@ -18,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 3px;
 }
 
 .small-card__title > h1 > a{
@@ -27,5 +29,5 @@
 
 .container__small-card-separator{
   margin-top: 10px;
-
+}
 }
