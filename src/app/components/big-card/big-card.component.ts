@@ -1,8 +1,9 @@
 import { Component, Input } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './big-card.component.html',
   styleUrls: ['./big-card.component.css', './big-card.responsive.component.css']
 })
@@ -14,6 +15,8 @@ photoCover:string = ""
 cardTitle:string = ""
 @Input()
 cardDescription:string = ""
+@Input()
+Id:string ="0"
 
 constructor() {}
 
